@@ -1,0 +1,15 @@
+                   ==========    O ARQUIVO CONTEM AS INFORMAÇÕES DOS MUNICIPIOS     ==========
+
+-------------------------------------------------------------------------------------------------------
+                                         <<<<MUNICIPIO 1>>>>
+
+Nome: Maravilhas      UF: MG        Temperatura: 35.00ºC        
+-------------------------------------------------------------------------------------------------------
+                                         <<<<MUNICIPIO 2>>>>
+
+Nome: BH      UF: MG        Temperatura: 31.00ºC        
+-------------------------------------------------------------------------------------------------------
+                                          <<<<INFORMAÇÕES GERAIS>>>>
+A TEMPERATURA MEDIA:33.00ºC
+AS CIDADES ABAIXO POSSUEM TEMPERATURA ACIMA DA MEDIA:
+[ Maravilhas ] 
