@@ -16,7 +16,8 @@ public class Cidades {
 
     public static void main(String[] args) throws IOException {
         Municipio m=new Municipio();//Cria uma instancia do objeto "Aluno"
-        Menu.MenuOpcao(m);//Faz a chamada do metodo "MenuOpcao" dentro da classe "Menu"
+        Menu.MenuOpcao(m);
+        System.out.println("Hello World!!");
     }
     
 }
