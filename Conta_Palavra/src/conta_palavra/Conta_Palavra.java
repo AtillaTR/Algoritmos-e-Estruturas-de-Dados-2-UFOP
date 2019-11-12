@@ -13,7 +13,7 @@ public class Conta_Palavra {
         File frases = new File("frase.txt");//Instancia um objeto do tipo File
         int opcao=0;
         String
-            msg1="BEM VINDO AO SISTEMA"+
+            msg1="BEM VINDO AO SISTEMA DE ARQUIVOS"+
                  "\nESCOLHA UMA OPCAO\n"+
                  "\n[1] Escrever no Arquivo\n"+
                  "[2] Contar Palavras\n"+
