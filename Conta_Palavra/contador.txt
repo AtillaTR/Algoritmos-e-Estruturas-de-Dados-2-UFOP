@@ -1,5 +1,5 @@
 Numero de palavras por linha:
-[Linha1: 4]   [Linha2: 7]   [Linha3: 7]   [Linha4: 7]   
+[Linha1: 4]   [Linha2: 7]   [Linha3: 7]   [Linha4: 7]   [Linha5: 2]   [Linha6: 11]   
 
 Dados numeros totais
-[Palavras: 25][Frases: 4][Linha: 4]
+[Palavras: 38][Frases: 6][Linha: 6]

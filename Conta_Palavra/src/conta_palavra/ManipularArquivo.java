@@ -30,6 +30,7 @@ public class ManipularArquivo {
              msg9="NAO HOUVE ESCRITA NO ARQUIVO NESTA OPERACAO",    //..............................
              str="#sair#";                                          //Fim mensagens     
         
+        System.out.println("\n\n========================================================================");
         if (arquivo.exists()) //Condição.verifica se objeto do tipo File existe
             JOptionPane.showMessageDialog(null,msg1);//Mensagem exibida ao usuário caso exista o arquivo
         else //Condição.Caso a primeira condição não seja satisfeita
@@ -90,19 +91,18 @@ public class ManipularArquivo {
             for(int i=0;i<linha.length();i++)
             {
                 m_char=linha.charAt(i);
-                 System.out.println(m_char);
-                    if((m_char >= 65 && m_char <= 90)||(m_char >= 97 && m_char <= 122)){
-                        v1=true;
-                        v2=false;
-                    }
-                    else
-                        v2=true;
+                 
+                if((m_char >= 65 && m_char <= 90)||(m_char >= 97 && m_char <= 122)){
+                    v1=true;
+                    v2=false;
+                }
+                else
+                    v2=true;
             
-                    if(v1==true&&v2==true){
-                        cont_palavra++;
-                        v1=false;
-                    }   
-                     System.out.println(cont_palavra);
+                if(v1==true&&v2==true){
+                    cont_palavra++;
+                    v1=false;
+                }   
             }
             if(v1=true&&v2==false)
                 cont_palavra++;
